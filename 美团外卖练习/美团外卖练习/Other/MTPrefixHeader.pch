@@ -1,0 +1,15 @@
+//
+//  MTPrefixHeader.pch
+//  美团外卖练习
+//
+//  Created by 任利华 on 16/12/13.
+//  Copyright © 2016年 huilong. All rights reserved.
+//
+
+#ifndef MTPrefixHeader_pch
+#define MTPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MTPrefixHeader_pch */

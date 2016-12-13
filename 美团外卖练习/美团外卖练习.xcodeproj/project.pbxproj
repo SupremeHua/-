@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2F0BA31E001445002BA612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F0BA21E001445002BA612 /* main.m */; };
+		3B2F0BAC1E001445002BA612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F0BAA1E001445002BA612 /* Main.storyboard */; };
+		3B2F0BAE1E001446002BA612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F0BAD1E001446002BA612 /* Assets.xcassets */; };
+		3B2F0BB11E001446002BA612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F0BAF1E001446002BA612 /* LaunchScreen.storyboard */; };
+		3B2F0BBE1E00380F002BA612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F0BBD1E00380F002BA612 /* AppDelegate.m */; };
+		436EA9F6B54CA2014257118C /* libPods-美团外卖练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D59E3783D509C22805C6D32 /* libPods-美团外卖练习.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0017F5EE48EE963A75D1F685 /* Pods-美团外卖练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美团外卖练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-美团外卖练习/Pods-美团外卖练习.release.xcconfig"; sourceTree = "<group>"; };
+		3B2F0B9E1E001445002BA612 /* 美团外卖练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美团外卖练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2F0BA21E001445002BA612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B2F0BAB1E001445002BA612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2F0BAD1E001446002BA612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2F0BB01E001446002BA612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2F0BB21E001446002BA612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2F0BBC1E00380F002BA612 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B2F0BBD1E00380F002BA612 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B2F0BBF1E003834002BA612 /* MTPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPrefixHeader.pch; sourceTree = "<group>"; };
+		6D59E3783D509C22805C6D32 /* libPods-美团外卖练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-美团外卖练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E354BA13144C5FE40689EADA /* Pods-美团外卖练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美团外卖练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-美团外卖练习/Pods-美团外卖练习.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2F0B9B1E001445002BA612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436EA9F6B54CA2014257118C /* libPods-美团外卖练习.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2F0B951E001445002BA612 = {
+			isa = PBXGroup;
+			children = (
+				3B2F0BA01E001445002BA612 /* 美团外卖练习 */,
+				3B2F0B9F1E001445002BA612 /* Products */,
+				C8AB3D8E4139C0220C92FF45 /* Pods */,
+				D6628993EDDD6599A5FD9A0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2F0B9F1E001445002BA612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F0B9E1E001445002BA612 /* 美团外卖练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2F0BA01E001445002BA612 /* 美团外卖练习 */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F0BB81E00380F002BA612 /* Classes */,
+				3B2F0BB91E00380F002BA612 /* Common */,
+				3B2F0BBA1E00380F002BA612 /* Libs */,
+				3B2F0BBB1E00380F002BA612 /* Other */,
+				3B2F0BAA1E001445002BA612 /* Main.storyboard */,
+				3B2F0BAD1E001446002BA612 /* Assets.xcassets */,
+				3B2F0BAF1E001446002BA612 /* LaunchScreen.storyboard */,
+				3B2F0BB21E001446002BA612 /* Info.plist */,
+				3B2F0BA11E001445002BA612 /* Supporting Files */,
+			);
+			path = "美团外卖练习";
+			sourceTree = "<group>";
+		};
+		3B2F0BA11E001445002BA612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F0BA21E001445002BA612 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2F0BB81E00380F002BA612 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B2F0BB91E00380F002BA612 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3B2F0BBA1E00380F002BA612 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		3B2F0BBB1E00380F002BA612 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F0BBC1E00380F002BA612 /* AppDelegate.h */,
+				3B2F0BBD1E00380F002BA612 /* AppDelegate.m */,
+				3B2F0BBF1E003834002BA612 /* MTPrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C8AB3D8E4139C0220C92FF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E354BA13144C5FE40689EADA /* Pods-美团外卖练习.debug.xcconfig */,
+				0017F5EE48EE963A75D1F685 /* Pods-美团外卖练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6628993EDDD6599A5FD9A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D59E3783D509C22805C6D32 /* libPods-美团外卖练习.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2F0B9D1E001445002BA612 /* 美团外卖练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2F0BB51E001446002BA612 /* Build configuration list for PBXNativeTarget "美团外卖练习" */;
+			buildPhases = (
+				9951123EA57B9511AB4F55DE /* [CP] Check Pods Manifest.lock */,
+				3B2F0B9A1E001445002BA612 /* Sources */,
+				3B2F0B9B1E001445002BA612 /* Frameworks */,
+				3B2F0B9C1E001445002BA612 /* Resources */,
+				EFD351EC8EF84D3F5F0E8BFE /* [CP] Embed Pods Frameworks */,
+				860C18553597768376DD6A82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "美团外卖练习";
+			productName = "美团外卖练习";
+			productReference = 3B2F0B9E1E001445002BA612 /* 美团外卖练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2F0B961E001445002BA612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = huilong;
+				TargetAttributes = {
+					3B2F0B9D1E001445002BA612 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B2F0B991E001445002BA612 /* Build configuration list for PBXProject "美团外卖练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2F0B951E001445002BA612;
+			productRefGroup = 3B2F0B9F1E001445002BA612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2F0B9D1E001445002BA612 /* 美团外卖练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2F0B9C1E001445002BA612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F0BB11E001446002BA612 /* LaunchScreen.storyboard in Resources */,
+				3B2F0BAE1E001446002BA612 /* Assets.xcassets in Resources */,
+				3B2F0BAC1E001445002BA612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		860C18553597768376DD6A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美团外卖练习/Pods-美团外卖练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9951123EA57B9511AB4F55DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD351EC8EF84D3F5F0E8BFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美团外卖练习/Pods-美团外卖练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2F0B9A1E001445002BA612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F0BBE1E00380F002BA612 /* AppDelegate.m in Sources */,
+				3B2F0BA31E001445002BA612 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B2F0BAA1E001445002BA612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2F0BAB1E001445002BA612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2F0BAF1E001446002BA612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2F0BB01E001446002BA612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2F0BB31E001446002BA612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2F0BB41E001446002BA612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2F0BB61E001446002BA612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E354BA13144C5FE40689EADA /* Pods-美团外卖练习.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "美团外卖练习/Other/MTPrefixHeader.pch";
+				INFOPLIST_FILE = "美团外卖练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huilong.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B2F0BB71E001446002BA612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0017F5EE48EE963A75D1F685 /* Pods-美团外卖练习.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "美团外卖练习/Other/MTPrefixHeader.pch";
+				INFOPLIST_FILE = "美团外卖练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huilong.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2F0B991E001445002BA612 /* Build configuration list for PBXProject "美团外卖练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2F0BB31E001446002BA612 /* Debug */,
+				3B2F0BB41E001446002BA612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2F0BB51E001446002BA612 /* Build configuration list for PBXNativeTarget "美团外卖练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2F0BB61E001446002BA612 /* Debug */,
+				3B2F0BB71E001446002BA612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2F0B961E001445002BA612 /* Project object */;
+}
