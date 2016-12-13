@@ -6,10 +6,24 @@
 //  Copyright © 2016年 huilong. All rights reserved.
 //
 
-#ifndef MTPrefixHeader_pch
-#define MTPrefixHeader_pch
+#if __OBJC__
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//1.定义常用的宏
 
-#endif /* MTPrefixHeader_pch */
+//2.导入常用的头文件
+#import "Addition.h"
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <SVProgressHUD.h>
+
+//3.自定义log
+/**
+ * 调试的宏
+ */
+#ifdef DEBUG
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#endif
